@@ -61,6 +61,19 @@ def greet():
         else :
             return "you are not a student" 
 greet()
+
+class Rectangle:
+    def __init__(self,width,length) :
+        self.width=width
+        self.length=length
+
+    def area(self):
+        print( self.width*self.length)
+
+    def perimeter(self):
+        print(2*(self.length+self.width))
+
+Rectangle(11,23)
  
 
 
