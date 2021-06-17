@@ -22,6 +22,12 @@ def nested():
         print(b)
 nested()
 
+
+def smallest(*args):
+    smallestNumber=min(args)
+    print(smallestNumber)
+smallest(2,34,5,6,9,1)
+
 def duplicate():
     k= ['a','b','a','e','d','b','c','e','f','g','h']
     m=set(k)
